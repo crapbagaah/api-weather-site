@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Site</title>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="weath.css">
+    <script src="https://kit.fontawesome.com/2da03c4b01.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!--search box-->
+    <div class="label">
+        <div class="search">
+            <input type="text" placeholder="Enter a city" spellcheck="false" id="city-click">
+            <button><i class="fa-solid fa-magnifying-glass" id="Btnn"></i></button>
+            
+        </div>
+
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+
+        <!--weather details-->
+        <div class="weather">
+            
+            <div class="center">
+                <img src="images/clear.png" class="weather-icon">
+                <h1 class="temp">15&#176;C</h1>
+                <h2 class="city">Kolkata</h2>
+                <p style="font-weight: 600;" class="feels-like-temp">Feels like 33&#176;C</p>
+            </div>
+            
+            <!--weather data-->
+            <div class="details">
+
+                <div class="items">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind-speed">5km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humidity">12%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+<script src="weath.js"></script>
+
+</body>
+</html>
